@@ -4,7 +4,16 @@
   box-sizing: content-box;
 }
 
+body {
+  background-color: grey;
+}
+
 /* Header */
+
+.logo {
+  background-color: white;
+}
+
 .Text-logo {
   display: inline-block;
   vertical-align: middle;
@@ -14,4 +23,66 @@
 .Logo {
   vertical-align: middle;
   width: 30px;
+}
+
+/* section  */
+
+h5 {
+  display: inline-block;
+}
+
+.bigcontainer {
+  margin: 10% auto;
+  background-color: white;
+  width: 80%;
+}
+
+.bluecontainer {
+  display: inline-block;
+  color: aliceblue;
+  background-color: deepskyblue;
+  border: none;
+  width: 50px;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.purplecontainer {
+  color: aliceblue;
+  background-color: rgb(120, 55, 129);
+  display: inline-block;
+  border: none;
+  width: 60px;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.greencontainer {
+  color: aliceblue;
+  background-color: rgb(47, 157, 115);
+  display: inline-block;
+  border: none;
+  width: 60px;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.green2container {
+  color: aliceblue;
+  background-color: rgb(121, 165, 67);
+  display: inline-block;
+  border: none;
+  width: 40px;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.orangecontainer {
+  color: aliceblue;
+  background-color: rgb(228, 154, 8);
+  display: inline-block;
+  border: none;
+  width: 50px;
+  border-radius: 12px;
+  padding: 6px;
 }
